@@ -1,0 +1,25 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(233, 203, 157);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.sect {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+
+span {
+    color: rgb(105, 46, 46);
+}
