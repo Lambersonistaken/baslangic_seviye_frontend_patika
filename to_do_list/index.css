@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    background: url(A.png);
+    background-size: cover;
+}
+
+#myList {
+    margin: 0 50% 0 33.5%;
+    text-align: center;
+    width: 500px;
+    list-style: none;
+   
+}
+
+.container {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#myInput {
+    width: 500px;
+    height: 20px;
+    color: black;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 14px 10px 42px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 10px 42px -12px rgba(0,0,0,0.75);
+    box-shadow: 14px 10px 42px -12px rgba(0,0,0,0.75);
+    border: none;
+    border-radius: 0 10px 0 10px;
+    padding: 10px;
+}
+
+#addButton {
+    margin-bottom: 15px;
+    border: none;
+    background-color: greenyellow;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px 0 10px 0;
+    -webkit-box-shadow: 14px 10px 42px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 10px 42px -12px rgba(0,0,0,0.75);
+    box-shadow: 14px 10px 42px -12px rgba(0,0,0,0.75);
+}
+
+
+.list-item {
+ /* From https://css.glass */
+ background: rgba(255, 13, 249, 0.23);
+ border-radius: 10px;
+ height: 30px;
+ padding: 4px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5.6px);
+ -webkit-backdrop-filter: blur(5.6px);
+ border: 1px solid rgba(255, 13, 249, 0.82);
+ margin-bottom: 10px;
+}
+
+.delete-btn {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .completed {
+    background-color: lightgreen;
+    text-decoration: line-through;
+  }
+
+  .message {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    z-index: 9999;
+  }
