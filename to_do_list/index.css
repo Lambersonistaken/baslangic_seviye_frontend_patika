@@ -63,6 +63,7 @@ html {
  -webkit-backdrop-filter: blur(5.6px);
  border: 1px solid rgba(255, 13, 249, 0.82);
  margin-bottom: 10px;
+    margin-right:30px;
 }
 
 .delete-btn {
